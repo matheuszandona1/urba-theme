@@ -21840,9 +21840,9 @@ Template Post Type: page, loteamento
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/pavimentacao.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:72%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:58%;"></div>
         </div>
-        <div class="text-block-12">Pavimentação<br><strong class="bold-text-3">72%</strong></div>
+        <div class="text-block-12">Pavimentação<br><strong class="bold-text-3">58%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3e8-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/sinalizacao.png" width="60" alt="" class="image-7">
@@ -21852,9 +21852,9 @@ Template Post Type: page, loteamento
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/icone-pag_empreendimentos-drenagem.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao areas-edificaveis" style="height:94%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao areas-edificaveis" style="height:99%ss;"></div>
         </div>
-        <div class="text-block-12">Drenagem<br><strong class="bold-text-3">94%</strong></div>
+        <div class="text-block-12">Drenagem<br><strong class="bold-text-3">99%ss</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/icons_terraplanagem.png" width="80" alt="" class="image-7">
@@ -21864,15 +21864,15 @@ Template Post Type: page, loteamento
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/iluminacao.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao areas-edificaveis" style="height:70%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao areas-edificaveis" style="height:99%;"></div>
         </div>
-        <div class="text-block-12">Iluminação<br><strong class="bold-text-3">70%</strong></div>
+        <div class="text-block-12">Iluminação<br><strong class="bold-text-3">99%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2023/01/area-lazer.png" width="60" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao paisagismo-progresso" style="height:5%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao paisagismo-progresso" style="height:99%;"></div>
         </div>
-        <div class="text-block-12">Área de lazer<br><strong class="bold-text-3">5%</strong></div>
+        <div class="text-block-12">Área de lazer<br><strong class="bold-text-3">99%</strong></div>
       </div>
     </div>
 

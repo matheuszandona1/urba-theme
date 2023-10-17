@@ -20187,21 +20187,21 @@ Template Name: Jardim São Roque
     <div class="div-andamento">
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-c81dfdf2" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/icons_terraplanagem.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3f4" class="div-evolucao terraplanagem" style="height: 15%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3f4" class="div-evolucao terraplanagem" style="height: 13%;"></div>
         </div>
-        <div class="text-block-12">Terraplanagem<br><strong class="bold-text-3">15%</strong></div>
+        <div class="text-block-12">Terraplanagem<br><strong class="bold-text-3">13%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-99a446bd" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/icone-pag_empreendimentos-drenagem.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3fd" class="div-evolucao agua-e-esgoto" style="height: 19%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3fd" class="div-evolucao agua-e-esgoto" style="height: 15%;"></div>
         </div>
-        <div class="text-block-12">Rede de Drenagem<br>‍<strong class="bold-text-3">19%</strong></div>
+        <div class="text-block-12">Rede de Drenagem<br>‍<strong class="bold-text-3">15%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-c81dfdf2" class="div-etapa">
         <div class="div-grafico"><img src="<?= get_stylesheet_directory_uri() ?>/images/saoroque/icons_agua-esgoto.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3fd" class="div-evolucao agua-e-esgoto" style="height: 11%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3fd" class="div-evolucao agua-e-esgoto" style="height: 6%;"></div>
         </div>
-        <div class="text-block-12">Rede de Esgoto<br><strong class="bold-text-3">11%</strong></div>
+        <div class="text-block-12">Rede de Esgoto<br><strong class="bold-text-3">6%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-c81dfdf2" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/icone-pag_empreendimentos-agua.png" width="80" alt="" class="image-7">

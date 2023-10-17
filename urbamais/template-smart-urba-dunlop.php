@@ -21886,15 +21886,15 @@ Template Post Type: page, loteamento
     <div class="div-andamento">
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="<?= get_stylesheet_directory_uri() ?>/images/itapeva/icons_agua-esgoto.png" width="80" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:90%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:99%;"></div>
         </div>
-        <div class="text-block-12">Rede de Esgoto<br><strong class="bold-text-3">90%</strong></div>
+        <div class="text-block-12">Rede de Esgoto<br><strong class="bold-text-3">99%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/rede-agua.png" width="36" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:90%;"></div>
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3e2" class="div-evolucao paisagismo" style="height:99%;"></div>
         </div>
-        <div class="text-block-12">Rede de Água<br><strong class="bold-text-3">90%</strong></div>
+        <div class="text-block-12">Rede de Água<br><strong class="bold-text-3">99%</strong></div>
       </div>
       <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
         <div class="div-grafico"><img src="<?= get_stylesheet_directory_uri() ?>/images/icone-pag_empreendimentos-pavimentacao.png" width="80" alt="" class="image-7">
@@ -21956,6 +21956,18 @@ Template Post Type: page, loteamento
         </div>
         <div class="text-block-12">Drenagem<br><strong class="bold-text-3">99%</strong></div>
       </div>
+      <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2023/01/area-lazer.png" width="60" alt="" class="image-7">
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba418" class="div-evolucao paisagismo-progresso" style="height:60%;"></div>
+        </div>
+        <div class="text-block-12">Área de lazer<br><strong class="bold-text-3">60%</strong></div>
+      </div>
+      <div id="w-node-3b024f14cf8a-c488da31" class="div-etapa">
+            <div class="div-grafico"><img src="<?= get_stylesheet_directory_uri() ?>/images/icone-pag_empreendimentos-muro.png" width="80" alt="Icone" class="image-7">
+              <div style="height: 86%;" class="div-evolucao areas-edificaveis"></div>
+            </div>
+            <div class="text-block-12">Muro<br><strong class="bold-text-3">86%</strong></div>
+          </div>
     </div>
 
 
