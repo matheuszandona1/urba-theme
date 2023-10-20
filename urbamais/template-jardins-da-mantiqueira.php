@@ -12,7 +12,7 @@
           <img src="<?php the_field('logo_mantiqueira'); ?>" alt="Logo Jardins da Mantiqueira">
         </div>
         <div class="tag">
-          <p class="tag__button">Breve Lançamento</p>
+          <p class="tag__button"> Lançamento</p>
           <p class="tag__text">Terrenos em Caçapava/SP</p>
         </div>
         <h2 class="hero__title">Bairro planejado completo em Caçapava</h2>
@@ -93,27 +93,29 @@
       </div>
     </div>
   </section>
-  <section class="conditions" data-aos="fade-down" data-aos-delay="300">
+  <section class="conditions d-none" data-aos="fade-down" data-aos-delay="300">
     <div class="conditions__container">
       <div class="conditions__content">
         <div class="tag" data-aos="fade-left" data-aos-delay="300">
           <p class="tag__text">Condições especiais</p>
         </div>
         <h2 class="conditions__title">Localização privilegiada na região do Vale do Paraíba</h2>
-        <div class="button--container justify-content-center">
-          <a href="" class="button">Garanta seu lote hoje mesmo</a>
-        </div>
+
       </div>
       <div class="conditions__items">
         <div class="item">
-          <p>Financiamento direto, sem burocracia</p>
+          <p>Lotes residenciais e comerciais a partir de
+            R$ 79.900*</p>
         </div>
         <div class="item">
-          <p>Entrada facilitada</p>
+          <p>Financiamento sem burocracia, direto com a loteadora </p>
         </div>
         <div class="item">
-          <p>Diversos planos de pagamento</p>
+          <p>Entrada facilitada e diversos planos de pagamento</p>
         </div>
+      </div>
+      <div class="button--container justify-content-center">
+        <a href="" class="button">Garanta seu lote hoje mesmo</a>
       </div>
     </div>
   </section>
@@ -198,6 +200,113 @@
           <img src="<?php echo site_url(); ?>/wp-content/uploads/2023/09/next-arrow.webp" alt="" width="32px" height="32px">
         </div>
       </div>
+    </div>
+  </section>
+  <!-- <section class="video" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/10/bg-video-mantiqueira.webp&quot;)">
+    <div class="video__container">
+      <h3 class="default__title">Veja o que espera por você no Jardins da Mantiqueira</h3>
+
+    </div> 
+  </section> -->
+  <section class="andamento-obra">
+
+    <div class="">
+      <div class="container-padrao" style="text-align: center;">
+        <h2 class="default__title">Acompanhe o andamento das obras</h2>
+        <p class="default__desc">Acompanhe por aqui o andamento da construção do Jardins da Mantiqueira em detalhes, seu novo bairro planejado em Caçapava/SP.</p>
+        <div class="div-andamento">
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-terra.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Terraplanagem</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-dreno.webp" width="112" alt="" class="image-7">
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Drenagem</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-esgoto.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Esgoto</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-agua.webp" width="112" alt="" class="image-7">
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede de <br>Água</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-pista.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Pavimentação</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-poste.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede Elétrica</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-sinal.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Sinalização</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Paisagismo</div>
+          </div>
+          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3e8-b3181021" class="div-etapa">
+        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/sinalizacao.png" width="60" alt="" class="image-7">
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3eb" class="div-evolucao pavimentacao" style="height:45%;"></div>
+        </div>
+        <div class="text-block-12"><strong class="bold-text-3">45%</strong><br>Sinalização</div>
+      </div> -->
+          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/arrimo.png" width="60" alt="" class="image-7">
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba40f" class="div-evolucao passeios-calcadas" style="height:11%;"></div>
+        </div>
+        <div class="text-block-12">Arrimo e Contenções<br><strong class="bold-text-3">11%</strong></div>
+      </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="div-lightbox-andamento" style="margin-top: 130px;">
+      <?php $images = acf_photo_gallery('galeria_obra', $post->ID); ?>
+      <a href="#" class="lightbox-link-6 w-inline-block w-lightbox" aria-label="open lightbox" aria-haspopup="dialog" style="background-color:#079D56 ; padding:24px; border-radius: 8px; text-transform: uppercase;">
+        <div style="font-family: Averta Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+color: #fff">veja as fotos da obra</div>
+        <script type="application/json" class="w-json">
+          {
+            "items": [
+              <?php if ($images) { ?>
+                <?php foreach ($images as $key => $image) {
+                  if ($key !== 0) {
+                    echo ',';
+                  } ?> {
+                    "caption": "<?php echo $image['caption']; ?>",
+                    "url": "<?php echo $image['full_image_url']; ?>",
+                    "_id": "<?php echo $image['id']; ?>",
+                    "type": "image"
+                  }
+                <?php } ?>
+              <?php } ?>
+            ]
+
+          }
+        </script>
+      </a>
     </div>
   </section>
   <section class="location" data-aos="fade-down" data-aos-delay="300">

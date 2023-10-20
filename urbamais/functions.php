@@ -22,16 +22,16 @@ function wpdocs_theme_name_scripts()
     }
 
     if (is_page_template('template-lp-vizinho-premiado.php')) {
-        
+
         // Remove o jQuery padrao do wp
         wp_deregister_script('jquery');
 
         // Adiciona jQuery 3.4.1
         wp_register_script('jquery', 'https://code.jquery.com/jquery-3.4.1.min.js', array(), '3.4.1');
-        
+
         // Styles
         wp_enqueue_style('styles-vizinho', get_stylesheet_directory_uri() . '/css/styles-vizinho.css', array(), '1.1.1');
-        
+
         // Scripts
         wp_enqueue_script('jquery-mask', get_template_directory_uri() . '/js/MascaraValidacao.js', array('jquery'), '1.1.0', true);
         wp_enqueue_script('js-vizinho', get_template_directory_uri() . '/js/index-vizinho.js', array('jquery-mask'), '2.1.3', true);
@@ -43,7 +43,7 @@ function wpdocs_theme_name_scripts()
         wp_enqueue_style('aos-animation', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
         wp_enqueue_style('slick-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
         wp_enqueue_style('slick-lightbox-css', get_stylesheet_directory_uri() . '/css/slick-lightbox.css');
-        wp_enqueue_style('style-mantiqueira', get_stylesheet_directory_uri() . '/css/styles-mantiqueira.css', array(), '1.0.2');
+        wp_enqueue_style('style-mantiqueira', get_stylesheet_directory_uri() . '/css/styles-mantiqueira.css', array(), '1.0.3');
 
         // Scripts
         wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', array('jquery'), null, true);
