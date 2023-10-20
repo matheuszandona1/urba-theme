@@ -689,7 +689,7 @@ Template Name: Página Home
                   <div class="text-block-3">Bairro planejado com infraestrutura completa</div>
                 </div>
                 <div class="info w-clearfix"><img src="<?= get_site_url() ?>/wp-content/uploads/2022/02/obras-laranja.png" width="25" height="25" alt="" class="image-2">
-                  <div class="text-block-3"><strong>Status:</strong> Breve Lançamento</div>
+                  <div class="text-block-3"><strong>Status:</strong>Lançamento</div>
                 </div><a href="<?php echo site_url(); ?>/jardins-da-mantiqueira" target="_blank" class="button-2 w-button">saiba mais</a>
               </div>
               <div class="text-block-35">Imagem meramente ilustrativa</div>
@@ -714,7 +714,7 @@ Template Name: Página Home
                 }
               </style>
               <div class="tag-breve-lan-amento boxx">
-                <div class="breve-lancamento boxx laranja">Breve Lançamento</div>
+                <div class="breve-lancamento boxx laranja" style="background-image: linear-gradient(45deg, #ff5aad, #f7287c);">Lançamento</div>
               </div>
             </div>
             <div class="div-empreendimento city_69" data-ix="show-info" style="background-image: url('<?php echo site_url('/wp-content/uploads/2023/09/hero-totem-parque-vitoria-scaled.webp'); ?>');background-position: -100px; display: block !important;" onclick="window.location.href ='<?php echo site_url(); ?>/parque-vitoria/';">

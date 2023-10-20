@@ -8,7 +8,7 @@
   <section class="hero" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/09/bg-hero.webp&quot;)">
     <div class="hero__container">
       <div class="hero__content">
-        <div class="hero__logo">
+        <div class="hero__logo" style="background:  transparent;;">
           <img src="<?php the_field('logo_mantiqueira'); ?>" alt="Logo Jardins da Mantiqueira">
         </div>
         <div class="tag">
@@ -25,7 +25,7 @@
       </div>
     </div>
   </section>
-  <section class="contact">
+  <section class="contact" id="contato">
     <div class="contact__container">
       <form id="email-form" method="get" class="contact__form">
         <div class="form-gap">
@@ -93,7 +93,7 @@
       </div>
     </div>
   </section>
-  <section class="conditions d-none" data-aos="fade-down" data-aos-delay="300">
+  <!-- <section class="conditions d-none" data-aos="fade-down" data-aos-delay="300">
     <div class="conditions__container">
       <div class="conditions__content">
         <div class="tag" data-aos="fade-left" data-aos-delay="300">
@@ -118,7 +118,7 @@
         <a href="" class="button">Garanta seu lote hoje mesmo</a>
       </div>
     </div>
-  </section>
+  </section> -->
   <section class="resources" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/09/bg-resources.webp&quot;)">
     <div class="resources__container">
       <h2 class="default__title" data-aos="fade-down" data-aos-delay="300">Invista no seu futuro, em qualidade de vida…</h2>
@@ -202,113 +202,6 @@
       </div>
     </div>
   </section>
-  <!-- <section class="video" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/10/bg-video-mantiqueira.webp&quot;)">
-    <div class="video__container">
-      <h3 class="default__title">Veja o que espera por você no Jardins da Mantiqueira</h3>
-
-    </div> 
-  </section> -->
-  <section class="andamento-obra">
-
-    <div class="">
-      <div class="container-padrao" style="text-align: center;">
-        <h2 class="default__title">Acompanhe o andamento das obras</h2>
-        <p class="default__desc">Acompanhe por aqui o andamento da construção do Jardins da Mantiqueira em detalhes, seu novo bairro planejado em Caçapava/SP.</p>
-        <div class="div-andamento">
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-terra.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Terraplanagem</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-dreno.webp" width="112" alt="" class="image-7">
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Drenagem</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-esgoto.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Esgoto</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-agua.webp" width="112" alt="" class="image-7">
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede de <br>Água</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-pista.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Pavimentação</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-poste.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede Elétrica</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso-sinal.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Sinalização</div>
-          </div>
-          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
-            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone-progresso.webp" width="112" alt="" class="image-7">
-
-            </div>
-            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Paisagismo</div>
-          </div>
-          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3e8-b3181021" class="div-etapa">
-        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/sinalizacao.png" width="60" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3eb" class="div-evolucao pavimentacao" style="height:45%;"></div>
-        </div>
-        <div class="text-block-12"><strong class="bold-text-3">45%</strong><br>Sinalização</div>
-      </div> -->
-          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
-        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/arrimo.png" width="60" alt="" class="image-7">
-          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba40f" class="div-evolucao passeios-calcadas" style="height:11%;"></div>
-        </div>
-        <div class="text-block-12">Arrimo e Contenções<br><strong class="bold-text-3">11%</strong></div>
-      </div> -->
-
-        </div>
-      </div>
-    </div>
-
-    <div class="div-lightbox-andamento" style="margin-top: 130px;">
-      <?php $images = acf_photo_gallery('galeria_obra', $post->ID); ?>
-      <a href="#" class="lightbox-link-6 w-inline-block w-lightbox" aria-label="open lightbox" aria-haspopup="dialog" style="background-color:#079D56 ; padding:24px; border-radius: 8px; text-transform: uppercase;">
-        <div style="font-family: Averta Std;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 150%;
-color: #fff">veja as fotos da obra</div>
-        <script type="application/json" class="w-json">
-          {
-            "items": [
-              <?php if ($images) { ?>
-                <?php foreach ($images as $key => $image) {
-                  if ($key !== 0) {
-                    echo ',';
-                  } ?> {
-                    "caption": "<?php echo $image['caption']; ?>",
-                    "url": "<?php echo $image['full_image_url']; ?>",
-                    "_id": "<?php echo $image['id']; ?>",
-                    "type": "image"
-                  }
-                <?php } ?>
-              <?php } ?>
-            ]
-
-          }
-        </script>
-      </a>
-    </div>
-  </section>
   <section class="location" data-aos="fade-down" data-aos-delay="300">
     <div class="location__container">
       <div class="location__content">
@@ -335,20 +228,164 @@ color: #fff">veja as fotos da obra</div>
       </div>
       <div class="location__map">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Google Maps</button>
+          <li class="nav-item" role="presentation" style="margin-right: 24px;">
+            <button class="nav-link active" id="google-maps-tab" data-bs-toggle="tab" data-bs-target="#google-maps-pane" type="button" role="tab" aria-controls="google-maps-pane" aria-selected="true">Google Maps</button>
           </li>
-
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="virtual-tour-tab" data-bs-toggle="tab" data-bs-target="#virtual-tour-pane" type="button" role="tab" aria-controls="virtual-tour-pane" aria-selected="false">Tour Virtual</button>
+          </li>
         </ul>
         <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <div class="tab-pane fade show active" id="google-maps-pane" role="tabpanel" aria-labelledby="google-maps-tab">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58721.62223843548!2d-45.743938271779356!3d-23.093384001277805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1694700910199!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-
+          <div class="tab-pane fade" id="virtual-tour-pane" role="tabpanel" aria-labelledby="virtual-tour-tab">
+            <iframe width="100%" height="570" style="border-radius:0px 12px 12px 12px;" src="https://www.youtube.com/embed/tSJk3upEXuY?si=IioQAdDpkD5jv_ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <section class="video" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/10/bg-video-mantiqueira.webp&quot;); height: 760px;">
+    <div class="video__container" style="max-width: 1240px; padding: 0px 24px; flex-direction: column; align-items:center; justify-content:center; height: 100%;">
+      <h3 class="default__title" style="text-align: center; margin: 0 auto; max-width: 819px;">Veja o que espera por você no Jardins da Mantiqueira</h3>
+
+      <div class="video__content" style="max-width: unset; display: flex;">
+        <video controls style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);  border: 1px solid #383838; border-radius:16px; max-width: 619px; margin: 0 auto; ">
+          <source src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/urba-sao-roque-quadras-praca.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <style>
+          @media(max-width: 480px) {
+            .video__content {
+              padding: 0px 24px;
+            }
+
+            .video__content video {
+              max-width: 100% !important;
+            }
+          }
+        </style>
+      </div>
+      <style>
+        .button:hover {
+          color: #fff;
+        }
+      </style>
+      <div class="button--container justify-content-center text-center" style="padding: 0px 24px; ">
+        <a href="#contato" class="button">Garanta seu lote hoje mesmo</a>
+      </div>
+    </div>
+  </section>
+  <section class="andamento-obra" style="background-color: #FFF9E7;">
+    <div class="">
+      <div class="container-padrao" style="text-align: center;">
+        <h2 class="default__title">Acompanhe o andamento das obras</h2>
+        <p class="default__desc">Acompanhe por aqui o andamento da construção do Jardins da Mantiqueira em detalhes, seu novo bairro planejado em Caçapava/SP.</p>
+        <div class="div-andamento" style="display:none;">
+          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_terra.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Terraplanagem</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_dreno.webp" width="112" alt="" class="image-7">
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Drenagem</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_esgoto.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">100%</strong><br>Rede de <br>Esgoto</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_agua.webp" width="112" alt="" class="image-7">
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede de <br>Água</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3f1-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_pista.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Pavimentação</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3fa-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_poste.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">90%</strong><br>Rede Elétrica</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba415-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso_sinal.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Sinalização</div>
+          </div>
+          <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3df-b3181021" class="div-etapa">
+            <div class="div-grafico"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/icone_progresso.webp" width="112" alt="" class="image-7">
+
+            </div>
+            <div class="text-block-12"><strong class="bold-text-3">20%</strong><br>Paisagismo</div>
+          </div> -->
+          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba3e8-b3181021" class="div-etapa">
+        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/sinalizacao.png" width="60" alt="" class="image-7">
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba3eb" class="div-evolucao pavimentacao" style="height:45%;"></div>
+        </div>
+        <div class="text-block-12"><strong class="bold-text-3">45%</strong><br>Sinalização</div>
+      </div> -->
+          <!-- <div id="w-node-dc4c3ba3-bf99-2572-c13b-1063a43ba40c-b3181021" class="div-etapa">
+        <div class="div-grafico"><img src="https://urba.com.br/wp-content/uploads/2022/11/arrimo.png" width="60" alt="" class="image-7">
+          <div data-w-id="dc4c3ba3-bf99-2572-c13b-1063a43ba40f" class="div-evolucao passeios-calcadas" style="height:11%;"></div>
+        </div>
+        <div class="text-block-12">Arrimo e Contenções<br><strong class="bold-text-3">11%</strong></div>
+      </div> -->
+
+        </div>
+
+
+
+      </div>
+      <div class="div-lightbox-andamento">
+        <?php $images = acf_photo_gallery('galeria_obra', $post->ID); ?>
+
+        <a href="#" class="lightbox-link-6 w-inline-block w-lightbox" aria-label="open lightbox" aria-haspopup="dialog" style="padding: 24px; border-radius:8px; background:#079D56;">
+          <style>
+            .text-block-25:hover {
+              color: #fff
+            }
+          </style>
+          <div class="text-block-25" style="border-radius: 0px; background: transparent; border:none;text-transform: uppercase;font-family: Averta Std;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; padding:0;">veja as fotos da obra</div>
+          <script type="application/json" class="w-json">
+            {
+              "items": [
+                <?php if ($images) { ?>
+                  <?php foreach ($images as $key => $image) {
+                    if ($key !== 0) {
+                      echo ',';
+                    } ?> {
+                      "caption": "<?php echo $image['caption']; ?>",
+                      "url": "<?php echo $image['full_image_url']; ?>",
+                      "_id": "<?php echo $image['id']; ?>",
+                      "type": "image"
+                    }
+                  <?php } ?>
+                <?php } ?>
+              ]
+
+            }
+          </script>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
   <section class="store" data-aos="fade-down" data-aos-delay="300">
     <div class="store__container">
       <div class="store__content text-center">
