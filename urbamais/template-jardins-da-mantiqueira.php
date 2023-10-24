@@ -4,7 +4,7 @@
 */
 ?>
 <?php get_header('novo'); ?>
-<main>
+<main class="page--mantiqueiras">
   <section class="hero" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/09/bg-hero.webp&quot;)">
     <div class="hero__container">
       <div class="hero__content">
@@ -25,21 +25,21 @@
       </div>
     </div>
   </section>
-  <section class="contact" id="contato">
+  <section class="contact" id="contato" style="background-image: none; height: auto;">
     <div class="contact__container">
-      <form id="email-form" method="get" class="contact__form">
+      <form id="email-form" method="post" class="contact__form">
         <div class="form-gap">
           <input type="hidden" id="idempreendimento" name="idempreendimento" value="24">
           <div class="input_wrap">
-            <input type="text" id="name" required="">
+            <input style="height: 100%;" type="text" id="name" required="">
             <label><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/09/person.webp" alt=""> Nome</label>
           </div>
           <div class="input_wrap">
-            <input type="email" id="email" required="">
+            <input style="height: 100%;" type="email" id="email" required="">
             <label><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/09/mail.webp" alt=""> E-mail</label>
           </div>
           <div class="input_wrap">
-            <input type="tel" id="whatsapp" minlength="15" maxlength="15" onkeypress="MascaraTelefone(this);" required="">
+            <input style="height: 100%;" type="tel" id="whatsapp" minlength="15" maxlength="15" onkeypress="MascaraTelefone(this);" required="">
             <label><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/09/phone.webp" alt=""> WhatsApp</label>
           </div>
           <div class="input_checkbox">
@@ -93,16 +93,16 @@
       </div>
     </div>
   </section>
-  <!-- <section class="conditions d-none" data-aos="fade-down" data-aos-delay="300">
-    <div class="conditions__container">
-      <div class="conditions__content">
-        <div class="tag" data-aos="fade-left" data-aos-delay="300">
+  <section class="conditions" data-aos="fade-down" data-aos-delay="300">
+    <div class="conditions__container" style="flex-direction: column;">
+      <div class="conditions__content" style="max-width: 100%;">
+        <div class="tag" data-aos="fade-left" data-aos-delay="300" style="margin: 0 auto;">
           <p class="tag__text">Condições especiais</p>
         </div>
-        <h2 class="conditions__title">Localização privilegiada na região do Vale do Paraíba</h2>
+        <h2 class="conditions__title text-center">Lotes em Caçapava/SP com condições imperdíveis, exclusivas de lançamento</h2>
 
       </div>
-      <div class="conditions__items">
+      <div class="conditions__items" style="max-width: 100%; flex-direction: row;">
         <div class="item">
           <p>Lotes residenciais e comerciais a partir de
             R$ 79.900*</p>
@@ -114,11 +114,16 @@
           <p>Entrada facilitada e diversos planos de pagamento</p>
         </div>
       </div>
+      <p style="font-family: Averta Std;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; color: #079D56; ">Consulte condições*</p>
       <div class="button--container justify-content-center">
         <a href="" class="button">Garanta seu lote hoje mesmo</a>
       </div>
     </div>
-  </section> -->
+  </section>
   <section class="resources" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/09/bg-resources.webp&quot;)">
     <div class="resources__container">
       <h2 class="default__title" data-aos="fade-down" data-aos-delay="300">Invista no seu futuro, em qualidade de vida…</h2>
@@ -240,32 +245,32 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58721.62223843548!2d-45.743938271779356!3d-23.093384001277805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc516de4e6e1a3%3A0x6544283198cf070f!2zQ2HDp2FwYXZhLCBTUA!5e0!3m2!1spt-BR!2sbr!4v1694700910199!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="tab-pane fade" id="virtual-tour-pane" role="tabpanel" aria-labelledby="virtual-tour-tab">
-            <iframe width="100%" height="570" style="border-radius:0px 12px 12px 12px;" src="https://www.youtube.com/embed/tSJk3upEXuY?si=IioQAdDpkD5jv_ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <video controls style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);  border: 1px solid #383838;   border-radius: 0px 0px 10px 10px; max-width: 100%; margin: 0 auto; height:  569px; background: black;">
+              <source src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/urba-sao-roque-quadras-praca.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <style>
+              @media(max-width: 480px) {
+                .video__content {
+                  padding: 0px 24px;
+                }
+
+                .video__content video {
+                  max-width: 100% !important;
+                }
+              }
+            </style>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="video" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/10/bg-video-mantiqueira.webp&quot;); height: 760px;">
-    <div class="video__container" style="max-width: 1240px; padding: 0px 24px; flex-direction: column; align-items:center; justify-content:center; height: 100%;">
+  <section class="video" style="background-image: url(&quot;<?php echo site_url(); ?>/wp-content/uploads/2023/10/bg-video-mantiqueira.webp&quot;);">
+    <div class="video__container" style="max-width: 1240px; padding: 60px 24px; flex-direction: column; align-items:center; justify-content:center; height: 100%;">
       <h3 class="default__title" style="text-align: center; margin: 0 auto; max-width: 819px;">Veja o que espera por você no Jardins da Mantiqueira</h3>
 
-      <div class="video__content" style="max-width: unset; display: flex;">
-        <video controls style="box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);  border: 1px solid #383838; border-radius:16px; max-width: 619px; margin: 0 auto; ">
-          <source src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/urba-sao-roque-quadras-praca.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <style>
-          @media(max-width: 480px) {
-            .video__content {
-              padding: 0px 24px;
-            }
-
-            .video__content video {
-              max-width: 100% !important;
-            }
-          }
-        </style>
+      <div class="video__content" style="max-width: 619px; display: flex; width: 100%;">
+        <iframe width="100%" height="350" style="border-radius:0px 12px 12px 12px; width: 100%;" src="https://www.youtube.com/embed/tSJk3upEXuY?si=IioQAdDpkD5jv_ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
       <style>
         .button:hover {

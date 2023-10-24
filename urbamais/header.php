@@ -66,9 +66,6 @@ if (is_singular('loteamento')) {
 <html data-wf-page="<?= $wfpage ?>" data-wf-site="5d5159338e8309099479b2ed" <?php language_attributes(); ?>>
 
 <head>
-  <script async defer type="text/javascript" src="https://cdn-prod.securiti.ai/consent/auto_blocking/5deee4b6-3c42-4239-a61f-8eb58012473c/7d462527-4aba-463a-818e-d18a68caf30c.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrzRGSxTLOp6uekQFsyYXbUSOPA42Yv98&callback=initMap" type="text/javascript"></script>
-
   <meta charset="utf-8">
   <title>Loteamento - Urba</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">

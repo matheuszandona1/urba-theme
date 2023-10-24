@@ -184,12 +184,14 @@
 <!--<div id="shell" style="position: absolute; opacity: 0;"><a id="linkchat" href="https://chat.directtalk.com.br/static/?chatId=5c4d7ee7-df97-41ef-aa7f-db0d82b2d904" target="_blank">Chat</a><a  id="linkwpp" href="https://api.whatsapp.com/send?phone=5531975000028" target="_blank">Whatsapp</a></div>-->
 <a id="wpp2020" onclick=" fbq('track', 'Contact'); //gtag_report_conversion();" href="https://api.whatsapp.com/send?phone=553140206868" target="_blank" style="position: fixed;bottom: 110px;right: 35px;width: 4%; background:#82ea5b;border-radius: 50%;padding: 8px;box-shadow: 3px 3px 8px #88888847;z-index:9999; text-align: center; max-width: 60px; min-width: 48px; max-height: 60px; min-height: 48px;"><img src="https://urba.com.br/wp-content/themes/urbamais/images/wpp---neg.png" width="40" alt="Whatsapp" class="image-12"></a>
 <style type="text/css">
-    .gdpr_lightbox-hide{
-        display:none !important;
-    }
-    .vizinho-premiado .rodape {
-        display:none;
-    }
+  .gdpr_lightbox-hide {
+    display: none !important;
+  }
+
+  .vizinho-premiado .rodape {
+    display: none;
+  }
+
   div#blip-chat-open-iframe:before {
     content: "Olá! Como podemos ajudar?";
     position: absolute;
@@ -396,7 +398,7 @@
     });
   });
 </script>
-<script src=https://unpkg.com/blip-chat-widget type="text/javascript"></script>
+<script src="https://unpkg.com/blip-chat-widget"  type="text/javascript"></script>
 <script>
   (function() {
     window.onload = function() {
@@ -410,6 +412,17 @@
         .build();
     }
   })();
+</script>
+<script async defer type="text/javascript" src="https://cdn-prod.securiti.ai/consent/auto_blocking/5deee4b6-3c42-4239-a61f-8eb58012473c/7d462527-4aba-463a-818e-d18a68caf30c.js"></script>
+
+<script>
+  function loadGoogleMapsScript() {
+    var script = document.createElement('script');
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCrzRGSxTLOp6uekQFsyYXbUSOPA42Yv98&callback=initMap';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+  }
 </script>
 </body>
 

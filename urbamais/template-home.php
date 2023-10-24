@@ -676,7 +676,7 @@ Template Name: Página Home
             </div>
               -->
 
-            <div class="div-empreendimento city_78" data-ix="show-info" style="background-image: url('<?php echo site_url(); ?>/wp-content/uploads/2023/07/URBA_JARDIM_DAS_MANTIQUEIRAS_VISTA_RUA_CASAS-1.jpg')" onclick="window.location.href ='<?php echo site_url(); ?>/jardins-da-mantiqueira';">
+            <div class="div-empreendimento city_78" data-ix="show-info" style="background-image: url('<?php echo site_url(); ?>/wp-content/uploads/2023/10/URBA_JARDIM_DAS_MANTIQUEIRAS_VISTA_AEREA_GOOGLE_A3-scaled.jpg')" onclick="window.location.href ='<?php echo site_url(); ?>/jardins-da-mantiqueira';">
               <div class="div-info w-clearfix">
                 <h3 class="heading-3">Jardins da Mantiqueira </h3>
                 <div class="info cidade w-clearfix"><img src="<?= get_site_url() ?>/wp-content/uploads/2022/02/pin_laranja.png" width="25" height="25" alt="" class="image-2">

@@ -43,7 +43,7 @@ function wpdocs_theme_name_scripts()
         wp_enqueue_style('aos-animation', 'https://unpkg.com/aos@2.3.1/dist/aos.css');
         wp_enqueue_style('slick-css', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');
         wp_enqueue_style('slick-lightbox-css', get_stylesheet_directory_uri() . '/css/slick-lightbox.css');
-        wp_enqueue_style('style-mantiqueira', get_stylesheet_directory_uri() . '/css/styles-mantiqueira.css', array(), '1.0.3');
+        wp_enqueue_style('style-mantiqueira', get_stylesheet_directory_uri() . '/css/styles-mantiqueira.css', array(), '1.0.6');
 
         // Scripts
         wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', array('jquery'), null, true);
