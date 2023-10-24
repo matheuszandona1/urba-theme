@@ -34,7 +34,7 @@
         <div class="formulario__container">
 
           <h3 class="formulario__title">Para enviar, preencha todos os campos:</h3>
-          <form action="" class="form">
+          <form action="https://urba.com.br/typ-vizinho-premiado/" class="form">
             <div class="form__holder">
               <label class="form__input" for="nome">
                 <input type="text" id="nome rd-text_field-llpgt1e9" placeholder="Nome" name="name" type="text" data-use-type="STRING" required/>
