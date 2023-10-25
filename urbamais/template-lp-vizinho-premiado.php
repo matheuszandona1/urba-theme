@@ -162,60 +162,11 @@
     });
     // Envio do lead no form para o RD
     $("#formVizinho").submit(function(e) {
-      e.preventDefault();
-      $("#formVizinho .button").val("Enviando..");
-      {
-        var data_array = [{
-            name: "nome",
-            value: $("#nome").val()
-          },
-          {
-            name: "cpf-cnpj",
-            value: $("#dados").val()
-          },
-          {
-            name: "telefone",
-            value: $("#telefone").val()
-          },
-          {
-            name: "email",
-            value: $("#email").val()
-          },
-          {
-            name: "empreendimento",
-            value: $("#loteamento option:selected").val(),
-          },
-          {
-            name: "idempreendimento",
-            value: $("#loteamento option:selected").attr("data-idempreendimento"),
-          },
-          {
-            name: "amigo",
-            value: $("#amigo").val()
-          },
-          {
-            name: "email-amigo",
-            value: $("#email-amigo").val()
-          },
-          {
-            name: "consentimento-de-comunicacao",
-            value: "Aceito"
-          },
-          {
-            name: "identificador",
-            value: "form-vizinho-premiado"
-          },
-          {
-            name: "token_rdstation",
-            value: "ddd19ee74dc5eca035093f12ac6ef0d2"
-          },
-        ];
-
-        RdIntegration.post(data_array, function() {
-          window.location = "https://urba.com.br/typ-vizinho-premiado/";
-          return false;
-        });
-      }
+      event.preventDefault();
+// Altera window.location para a nova URL
+       window.location = "https://urba.com.br/typ-vizinho-premiado/";
+        
+      
     });
   </script>
   <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3a7d0e9a-a652-4068-82e9-d28ba885fa3f-loader.js"></script>
