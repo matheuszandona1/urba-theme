@@ -166,6 +166,7 @@
       $("#formVizinho .button").val("Enviando..");
           window.location = "https://urba.com.br/typ-vizinho-premiado/";
           return false;
+
     });
   </script>
   <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3a7d0e9a-a652-4068-82e9-d28ba885fa3f-loader.js"></script>
