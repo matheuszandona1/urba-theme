@@ -81,8 +81,8 @@
           <div class="form__terms">
             <input type="checkbox" name="" id="checkbox" required />
             <p class="form__terms--text">
-              Li e estou de acordo com o <a href="#">regulamento</a>. Estou de acordo também com as formas de tratamento de dados realizados pela marca MRV&CO,
-              conforme sua <a href="#">Política de Privacidade</a>.
+              Li e estou de acordo com o <a target="_blank" href="https://urba.com.br/wp-content/uploads/2023/10/V05_REGULAMENTO_PROMOCAO_VIZINHO_PREMIADO_2023.08.08_2.pdf">regulamento</a>. Estou de acordo também com as formas de tratamento de dados realizados pela marca MRV&CO,
+              conforme sua <a target="_blank" href="https://www.mrv.com.br/institucional/pt/politica-de-privacidade">Política de Privacidade</a>.
             </p>
           </div>
           <button type="submit" class="button button--form">ENVIAR →</button>
@@ -128,7 +128,7 @@
         <p class="duvidas__desc">
           Envie um e-mail pra gente: <b>vizinhopremiado@vivaurba.com.br</b> <br />Explique sua dúvida e vamos responder o mais breve possível.
         </p>
-        <div class="button--container"><a href="#" class="button button--form size">QUERO GANHAR PRÊMIOS EM $ →</a></div>
+        <div class="button--container"><a href="mailto:vizinhopremiado@vivaurba.com.br" class="button button--form size">QUERO GANHAR PRÊMIOS EM $ →</a></div>
       </div>
     </section>
   </main>
@@ -164,58 +164,8 @@
     $("#formVizinho").submit(function(e) {
       e.preventDefault();
       $("#formVizinho .button").val("Enviando..");
-      {
-        var data_array = [{
-            name: "nome",
-            value: $("#nome").val()
-          },
-          {
-            name: "cpf-cnpj",
-            value: $("#dados").val()
-          },
-          {
-            name: "telefone",
-            value: $("#telefone").val()
-          },
-          {
-            name: "email",
-            value: $("#email").val()
-          },
-          {
-            name: "empreendimento",
-            value: $("#loteamento option:selected").val(),
-          },
-          {
-            name: "idempreendimento",
-            value: $("#loteamento option:selected").attr("data-idempreendimento"),
-          },
-          {
-            name: "amigo",
-            value: $("#amigo").val()
-          },
-          {
-            name: "email-amigo",
-            value: $("#email-amigo").val()
-          },
-          {
-            name: "consentimento-de-comunicacao",
-            value: "Aceito"
-          },
-          {
-            name: "identificador",
-            value: "form-vizinho-premiado"
-          },
-          {
-            name: "token_rdstation",
-            value: "ddd19ee74dc5eca035093f12ac6ef0d2"
-          },
-        ];
-
-        RdIntegration.post(data_array, function() {
           window.location = "https://urba.com.br/typ-vizinho-premiado/";
           return false;
-        });
-      }
     });
   </script>
   <script type="text/javascript" async src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/3a7d0e9a-a652-4068-82e9-d28ba885fa3f-loader.js"></script>

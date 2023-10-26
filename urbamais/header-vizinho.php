@@ -32,7 +32,7 @@
   <header class="header">
     <div class="header__container">
       <div class="header__logo">
-        <a href="<?php echo site_url(); ?>" ><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/logo.webp" alt="Logo Urba" width="150" /></a>
+        <a href="<?php echo site_url(); ?>" ><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/logo-vizinho-urba.webp" alt="Logo Urba" width="150" /></a>
       </div>
       <div class="header__text"><b>🤑 Indicou, fechou, ganhou! 🤑 </b> <br />Ganhe prêmios em $</div>
       <div class="header__img desktop"><img src="<?php echo site_url(); ?>/wp-content/uploads/2023/10/logo-vizinho.png" alt="" /></div>
